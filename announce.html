@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Announcements</title>
+    <meta name="google-signin-scope" content="profile email">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="380874212749-jurd79kcl3kkc1fss4efgt49rpibd3at.apps.googleusercontent.com">
+</head>
+
+<body>
+	
+<form action="action_page.php">
+  Date of Announcement <input type="date" name="date">
+	<br><br>
+  Name of Club <select id=club>
+  				<option value="Select 1">Select </option>
+				<option value="Club 1">Club 1</option>
+				<option value="Club 2">Club 2</option>
+				<option value="Club 3">Club 3</option>
+			</select>
+    <br><br>
+  Staff Sponsor <select id=club>
+  	  				<option value="Select 2">Select </option>
+			  		<option value="staff 1">staff 1</option>
+			  		<option value="staff 2">staff 2</option>
+			  		<option value="staff 3">satff 3</option>
+			    </select> <br><br>
+	Announcement <textarea rows="4" cols="50"></textarea>
+		<br><br>Reoccuring dates
+		<input type="checkbox" name="date" value="monday">Mon	 
+	 	<input type="checkbox" name="date" value="tuesday">Tues
+		<input type="checkbox" name="date" value="wednesday">Wed
+		<input type="checkbox" name="date" value="thursday">Thurs 
+		<input type="checkbox" name="date" value="friday">Fri
+ 		<br><br>
+ 	<input type="submit">
+</form>
+
+
+
+</body>
+</html>
