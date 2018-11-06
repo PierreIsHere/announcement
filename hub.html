@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body>
+<form method="post">
+<input type="submit" name="edit" id = "edit" value="Edit">
+<input type="submit" name="insert" id ="insert" value="Insert">
+</form>
+<?php
+if (isset($_POST['Edit'])) {
+	echo "test1";
+	include "edit.html";
+}
+elseif (isset($_POST['Insert'])) {
+	echo "test2";
+	include "announce.html";
+}
+
+?>
+</body>
+</html>
