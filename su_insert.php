@@ -7,7 +7,7 @@
     $email = $_POST['email'];
 
 // Create connection
-$conn = mysqli_connect("localhost", "root", "chrome46", "announcement");
+$conn = mysqli_connect("localhost", "root", "", "announcement");
 // Check connection
 $sql = "INSERT INTO users (uname, pass, first, last, email)
 VALUES ('$uname', '$pass', '$fname', '$lname', '$email')";
