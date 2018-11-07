@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";//"chrome46";
+$password = /*"";*/"chrome46";
 $dbname = "announcement";
 
 // Create connection
