@@ -13,9 +13,9 @@
     <body>
         <form method=post action="
 <?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-            <input type="text" name="uname" placeholder="Username">
+            <input type="text" name="uname" placeholder="Username" required>
             <br>
-            <input type="password" name="pass" placeholder="Password">
+            <input type="password" name="pass" placeholder="Password" required>
             <br>
             <br>
             <input type="submit" value="login">
