@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title></title> 
 <script type="text/javascript">
     document.getElementById("club_add").onclick = function() {
     var form = document.getElementById("add_club");
@@ -31,12 +31,12 @@
             <input type="submit" name="submit" value="Submit" />
         </form>
 
-<form method="post" action="su_insert.php" name="add_club" id="add_club">
+<!-- <form method="post" action="su_insert.php" name="add_club" id="add_club">
                 <input type="text" name="club" placeholder="Club Name" required/>
                 <input type="button" name="club_add" value="Add Another Club" />
 
             <input type="submit" name="submit" value="Submit" />
         </form>
-
+ -->
 </body>
 </html>

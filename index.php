@@ -51,7 +51,7 @@
 		    $result = $conn->query($sql);
 		    if ($result->num_rows > 0) {
 		        while ($row = $result->fetch_assoc()) {
-		            if ($pass == $row["pass"]) header("Location: hub/hub.html");
+		            if ($pass == $row["pass"]) header("Location: hub/insert.php");
 		        }
 		    } else {
 		        echo "Wrong username or password <br>";
