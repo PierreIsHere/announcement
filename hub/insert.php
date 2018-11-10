@@ -11,7 +11,7 @@
 <body>
 <center>	
 <form method="post"  action='insert_tbl.php'>
-   Date<input type="date" size="60" name="date" value="<?php echo date('Y-m-d'); ?>">
+   Date <input type="date" size="60" name="date" value="<?php echo date('Y-m-d'); ?>">
 	<br><br>
   <input type="text" name="club" placeholder="Name of Club">
     <br><br>

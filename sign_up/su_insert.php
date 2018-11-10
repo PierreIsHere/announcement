@@ -10,6 +10,7 @@
 
 if ($pass != $conf_pass){
     echo "Passwords don't match!!";
+    header("Location: sing_up.php");
 }
 else {
     // Create connection
