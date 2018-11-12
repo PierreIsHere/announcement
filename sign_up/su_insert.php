@@ -1,6 +1,6 @@
 <?php
    
-    //Retrieve the date and location information.
+
     $uname = $_POST['uname'];
     $pass = $_POST['pass'];
     $conf_pass = $_POST['conf_pass'];

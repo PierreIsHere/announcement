@@ -12,7 +12,7 @@
             <div class="container" style="background-color:#f1f1f1">
                <h2>Login</h2>
                <div class="imgcontainer">
-                  <img src="https://pbs.twimg.com/profile_images/939115738824085505/DLR6W-I__400x400.jpg" height="200" width="200">
+                  <img src="includes/pcss.png" height="200" width="200">
                </div>
                <div class="container">
                   <form method="POST">
@@ -26,8 +26,7 @@
                   </form>
                </div>
                <div class="container" style="background-color:#f1f1f1">
-                  <span class="pass"><a href="forgot.php">Forgot Password?</a></span>
-                  <h4>OR</h4>
+
                   <input type="button" onclick="location.href='sign_up/sign_up.php';" value="Sign Up" />
                </div>
          </center>
