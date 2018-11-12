@@ -1,42 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title> 
-<script type="text/javascript">
-    document.getElementById("club_add").onclick = function() {
-    var form = document.getElementById("add_club");
-    var input = document.createElement("input");
-    input.type = "text";
-    var br = document.createElement("br");
-    form.appendChild(input);
-    form.appendChild(br);
-}
-</script>
+<link rel = "stylesheet"
+         type = "text/css" href = "../includes/register.css" />
 </head>
-<body>
+<body background="../includes/background.png">
+<center>
+<form action="/action_page.php">
+  <div class="container" style="background-color:#f1f1f1">
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
 
-<form method="post" action="su_insert.php">
-                <input type="text" name="uname" placeholder="Username" required/>
-                <br>
-                <input type="Password" name="pass" placeholder="Password" required/>
-                <br>
-                <input type="Password" name="conf_pass" placeholder="Re-Enter Password" required/>
-                <br>
-                <input type="text" name="fname" placeholder="First Name"/>
-                <br>
-                <input type="text" name="lname" placeholder="Last Name"/>
-                <br>
-                <input type="text" name="email" placeholder="Email" required />
-                <p />
-            <input type="submit" name="submit" value="Submit" />
-        </form>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+<br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <br>
 
-<!-- <form method="post" action="su_insert.php" name="add_club" id="add_club">
-                <input type="text" name="club" placeholder="Club Name" required/>
-                <input type="button" name="club_add" value="Add Another Club" />
-
-            <input type="submit" name="submit" value="Submit" />
-        </form>
- -->
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+</center>
 </body>
 </html>

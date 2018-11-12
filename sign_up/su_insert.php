@@ -13,9 +13,7 @@ if ($pass != $conf_pass){
     header("Location: sing_up.php");
 }
 else {
-    // Create connection
-    $conn = mysqli_connect("localhost", "root", "chrome46", "announcement");
-    // Check connection
+    include "../includes/connectdb.php";
     $sql = "INSERT INTO users (uname, pass, first, last, email)
     VALUES ('$uname', '$pass', '$fname', '$lname', '$email')";
 

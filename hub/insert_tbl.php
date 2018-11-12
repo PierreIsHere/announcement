@@ -9,7 +9,7 @@ include "../includes/connectdb.php";
 $sql = "INSERT INTO announcement (date, club, sponsor, announcement)
 VALUES ('$date', '$club', '$sponsor', '$announcement')";
 
-if ($conn) {           
+if ($conn) {
   mysqli_query($conn, $sql);  
     header("Location: insert.php");
 
